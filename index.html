@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>aquaursus' website</title>
+	<link rel="icon" href="images/favicon.png"/>
+
+<style>
+html {
+	background-image: url("images/web.gif");
+	background-size: cover;
+	image-rendering: pixelated;
+	background-attachment: fixed;
+	background-position: center;
+
+	font-family: "Retro Gaming";
+}
+
+@font-face {
+	font-family: "Retro Gaming";
+	src: url("Retro Gaming.ttf");
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+pre {
+	color: white;
+}
+
+.content-box {
+	background-color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-color: purple;
+	margin: 15px;
+	padding: 15px;
+}
+
+.meat-box {
+	width: 29%;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row {
+	flex-direction:row;
+}
+
+.column {
+	flex-direction:column;
+}
+
+
+</style>
+
+</head>
+<body>
+	<div class="content-box" style="text-align: center;">
+		<h1>aquaursus' website</h1>
+	</div>
+	<div class="container row" style="justify-content: center;">
+		<div class="content-box container row meat-box">
+			<img src="images/me.png" style="padding-right: 15px; width: 50%; height: 50%;"></img>
+			<div class="container column">
+				<h2>About me</h2>
+				<pre> 
+A certified idiot
+				</pre>
+				<div class="container row">
+					<a href="https://aquaursus0.tumblr.com/"><img src="images/tumblr.webp" style="width: 32px; height: 32px; padding-right: 8px;"/></a>
+					<a href="https://github.com/aquaursus"><img src="images/github.webp" style="width: 32px; height: 32px; padding-right: 8px;"/></a>
+				</div>
+			</div>
+		</div>
+		<div class="content-box meat-box">
+			<img src="images/wip.png" style="height: 100%; width: 100%;"/>	
+		</div>
+		<div class="content-box meat-box">
+			<img src="images/wip.png" style="height: 100%; width: 100%;"/>
+		</div>
+	</div>
+</body>
+</html>
