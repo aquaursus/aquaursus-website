@@ -37,9 +37,10 @@ div.content-box {
 	margin: auto;
 	padding: 10px;
 	margin-bottom: 15px;
+	margin-top: 30px;
 }
 
-/* Flex containers */
+/* Containers */
 .container {
 	display: flex;
 	flex-wrap: wrap;
@@ -51,6 +52,23 @@ div.content-box {
 
 .column {
 	flex-direction:column;
+}
+
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  max-width 512px;
+}
+
+div.scroll-container img {
+  margin: 10px;
+  height: 450px;
+  width: 512px;
+}
+
+div.blog {
+  max-height: 512px;
+  overflow: auto;
 }
 
 /* Elements */
