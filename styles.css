@@ -58,17 +58,23 @@ div.scroll-container {
   overflow: auto;
   white-space: nowrap;
   max-width 512px;
+  max-height: 50%;
 }
 
 div.scroll-container img {
   margin: 10px;
   height: 450px;
-  width: 512px;
+  max-width: 512px;
+  
 }
 
 div.blog {
   max-height: 512px;
   overflow: auto;
+
+  max-width: 100%;
+  min-width: 30%;
+  padding-left: 15px;
 }
 
 /* Elements */
