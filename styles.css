@@ -27,6 +27,7 @@ div.content-box {
 	max-width: 100%;
 
 	min-height: 512px;
+	flex-grow: 1;
 }
 
 #header {
@@ -80,4 +81,13 @@ div.blog {
 /* Elements */
 h1, h2, p {
 	color: white;
+}
+
+#meImg {
+  margin-right: 15px; 
+  margin-top: auto; 
+  margin-bottom: auto;
+  width: 256px; 
+  height: 256px; 
+  text-align: center;
 }
