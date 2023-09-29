@@ -1,0 +1,25 @@
+html {
+	/* Background image */
+	background-image: url("images/web.gif");
+	background-size: cover;
+	image-rendering: pixelated;
+	background-attachment: fixed;
+	background-position: center;
+
+	font-family: "Retro Gaming";
+}
+
+
+div.content-box {
+	background-color: black;
+	border: solid 3px purple;
+	
+	margin: 15px;
+	padding: 5px;
+
+	min-width: 30%;
+	max-width: 100%;
+
+	min-height: 512px;
+	flex-grow: 1;
+}
