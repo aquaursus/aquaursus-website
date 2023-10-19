@@ -75,7 +75,8 @@ div.blog {
 
   max-width: 100%;
   min-width: 30%;
-  padding-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Elements */
